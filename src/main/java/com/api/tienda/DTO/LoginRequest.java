@@ -12,11 +12,7 @@ import lombok.Setter;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class loginDto {
-    
-    
-    private String email;
-    private String pasword;
-
-
+public class LoginRequest {
+    String username;
+    String password; 
 }

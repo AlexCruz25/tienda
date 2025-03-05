@@ -23,6 +23,7 @@ public class Cliente {
     private String email;
     private String password;
     
+    
     @OneToOne
     @JoinColumn(name= "carrito_id", referencedColumnName="id")      
     private Carrito carrito;

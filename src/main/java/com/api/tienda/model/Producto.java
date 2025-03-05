@@ -20,22 +20,20 @@ public class Producto {
     private String nombre;
     private String descripcion;
     private int stock;
+    private int precio;
     private String url;
 
     public Producto() {
     }
 
-    public Producto(Long id, String nombre, String descripcion, int stock, String url) {
+    public Producto(Long id, String nombre, String descripcion, int stock, int precio, String url) {
         this.id = id;
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.stock = stock;
+        this.precio = precio;
         this.url = url;
     }
 
-    
-    
-    
-    
     
 }
